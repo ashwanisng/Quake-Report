@@ -82,6 +82,7 @@ public class EarthquakeActivity extends AppCompatActivity implements LoaderCallb
 
         ListView earthquakeListView = (ListView) findViewById(R.id.list);
 
+        mEmptyStateTextView = (TextView)findViewById(R.id.empty_view);
 
 
         mAdapter = new EarthQuakeAdapter(this, new ArrayList<EarthQuake>());
